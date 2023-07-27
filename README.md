@@ -13,10 +13,12 @@ Please solve the exercise by using `useContext`.
 
 **structure your app as follows:**
 
+
 - `App` has Header, Main and Footer as children
-  -`Header`
-  -`Main`
-  -`Footer`
+  - `Header`
+  - `Main`
+  - `Footer`
+
 
 - `Header` has ThemeSwitch as a child:
   - `ThemeSwitch` 
@@ -28,15 +30,18 @@ Please solve the exercise by using `useContext`.
 
 ### Bonus :weight_lifting:
 
-- add a `Login`Component as a child of `Header`
+- add a `Login` Component as a child of `Header`
 
- - `Header` has ThemeSwitch as a child:
-  - `ThemeSwitch` 
-  - `Login`
+ - `Header` has now ThemeSwitch and Login as children:
+   - `ThemeSwitch` 
+   - `Login`
 
 - change the text of main according to the login state
  
-Please solve by using `useContext`again
+Please solve by using `useContext` again.
 
 ![](./src/assets/login.gif)
+
+
+
 

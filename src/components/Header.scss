@@ -1,0 +1,90 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    height: 15vh;
+    background-color: #4d4d4d;
+    color: #44aeff;
+
+    &.lightMode {
+        background-color: #ebeaea;
+        color: #068ffe;
+    }
+
+    .themeBtn{
+        outline: none;
+        border: none;
+        background-color:inherit;
+        color: inherit;
+    }
+
+    .icon {
+        font-size: 3rem;
+    }
+
+    h3{
+        margin-left: 1.5rem;
+    }
+
+    .headerRight {
+        display: flex;
+    }
+    .themeSwitcher {
+        display: flex;
+        align-items: center; 
+        margin-right: 1.5rem;
+
+        .switchThemeText {
+        font-size: 0.7rem;
+        margin-left: 0.5rem;
+
+        .themeSpan {
+            font-weight: bold;
+            &.lightSpan {
+                color:#ebeaea;
+            }
+            &.darkSpan {
+                color: #4d4d4d;
+            }
+        }
+    }
+    }
+   
+
+    .Login{
+        display: flex;
+        align-items: center;
+        margin-right: 1.5rem;
+
+        button{
+            width: 4.5rem;
+            padding: 0.3rem;
+            border-radius: 0.3rem;
+            outline: none;
+            border: none;
+            background-color: rgb(249, 249, 73);
+            font-weight: bold;
+            color: #068ffe;
+        }
+
+        img{
+            width: 50px;
+
+        }
+        .avatarWrapper {
+            position: relative;
+            margin-right: 10px;
+        }
+        .greenDot{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: rgb(63, 231, 63);
+            display: block;
+            position: absolute;
+            top: 40px;
+            left: 30px;
+        }
+    }
+}

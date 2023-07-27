@@ -1,0 +1,18 @@
+.Footer {
+    height: 10vh;
+    background-color: #4d4d4d;
+    color: #eb8575;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+
+    &.lightMode{
+        background-color:#ebeaea ;
+        color: #E64C32
+    }
+
+    h3{
+        margin-left: 1.5rem;
+    }
+}

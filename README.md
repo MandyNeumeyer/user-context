@@ -25,9 +25,11 @@ Please solve the exercise by using `useContext`.
   - `ThemeSwitch` 
 
 ---
+As a guideline how the finished product could be looking, use the reference image below.
 
 ![](./src/assets/theme.gif)
 
+---
 
 ### Bonus :weight_lifting:
 
@@ -41,7 +43,12 @@ Please solve the exercise by using `useContext`.
  
 Please solve by using `useContext` again.
 
+---
+As a guideline how the finished product could be looking, use the reference image below.
+
 ![](./src/assets/login.gif)
+
+---
 
 
 

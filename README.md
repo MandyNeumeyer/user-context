@@ -6,7 +6,8 @@
 
 - Create a Basic React App, with a theme toggle to let the user choose between dark and light mode. 
 
-- if the user changes the theme, your components styles (`color` and `backgroundColor`) should be updated accordingly
+- if the user changes the theme, your components styles (`color` and `backgroundColor`) should be updated accordingly.
+
 Please solve the exercise by using `useContext`.
 
 ---
